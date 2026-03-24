@@ -59,8 +59,8 @@
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/YOUR_USERNAME/Hot100-Orbit.git
-cd Hot100-Orbit
+git clone https://github.com/YOUR_USERNAME/Leetcode-Orbit.git
+cd Leetcode-Orbit
 
 # 2. 启动 Claude Code
 claude
@@ -310,7 +310,7 @@ Agent: 💡 Level 3 提示 — 代码骨架
 ## 项目结构
 
 ```
-Hot100-Orbit/
+Leetcode-Orbit/
 │
 ├── CLAUDE.md                    # Agent 指令文件（始终加载）
 ├── soul.md                      # 用户画像（始终加载）
