@@ -55,6 +55,14 @@
 - Python 3.10+
 - Git
 
+> **⚠️ 重要：请关闭 IDE 的代码自动补全功能！**
+>
+> 刷题的目的是锻炼你自己的编码能力。如果 IDE 的 AI 自动补全（如 Copilot、Codeium、Cursor Tab 等）开着，它会帮你把代码写完，失去了练习的意义。
+>
+> - **VS Code**: 设置中搜索对应插件，禁用或暂停
+> - **Cursor**: 关闭 Cursor Tab（设置 → Features → Cursor Tab → 关闭）
+> - **JetBrains**: 禁用 AI Assistant 插件
+
 ### 安装步骤
 
 ```bash
