@@ -63,7 +63,40 @@
 > - **Cursor**: 关闭 Cursor Tab（设置 → Features → Cursor Tab → 关闭）
 > - **JetBrains**: 禁用 AI Assistant 插件
 
-### 安装步骤
+### 安装 Claude Code
+
+如果你还没有安装 Claude Code，按以下步骤操作：
+
+```bash
+# 1. 安装 Claude Code（需要 Node.js 18+）
+npm install -g @anthropic-ai/claude-code
+
+# 2. 首次运行，会引导你登录 Anthropic 账号
+claude
+```
+
+> **没有 Node.js？** 先安装：
+> - **macOS**: `brew install node`
+> - **Windows**: 从 [nodejs.org](https://nodejs.org/) 下载安装
+> - **Linux**: `curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt-get install -y nodejs`
+>
+> **没有 Anthropic 账号？** 前往 [console.anthropic.com](https://console.anthropic.com/) 注册，需要绑定付款方式（API 按量付费）。也可以使用 [Claude Max/Pro 订阅](https://claude.ai/pricing) 直接授权，无需单独 API 额度。
+
+**🇨🇳 国内用户推荐使用 Coco**
+
+如果你在国内，访问 Anthropic 不方便，可以使用 [Coco](https://cocoapi.org/)（兼容 Claude Code 的国产替代）：
+
+```bash
+# 安装 Coco
+npm install -g coco-cli
+
+# 启动（用法和 Claude Code 一致）
+coco
+```
+
+> Coco 支持本项目的所有功能（CLAUDE.md、斜杠命令、文件读写），使用体验与 Claude Code 基本一致。
+
+### 开始使用
 
 ```bash
 # 1. 克隆本仓库
